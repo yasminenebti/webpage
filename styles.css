@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+/* partie navbar et image */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  color: #8491f3;
+}
+
+.navbar_items ul {
+  display: flex;
+}
+
+.navbar_items ul li {
+  margin: 10px;
+}
+
+.navbar_items ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.navbar_items ul li a:hover {
+  color: brown;
+}
+
+.banner_image {
+  background: url("images/pc.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.banner_content {
+  text-align: center;
+  color: #fff;
+  margin-top: 200px;
+}
+.banner_content h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.banner_content h2 {
+  font-size: 40px;
+  color: #8491f3;
+}
+
+/* partie programe */
+p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #7a7979;
+}
+
+.courses {
+  text-align: center;
+  padding: 4%;
+}
+
+.p_courses {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.p_courses_item img {
+  width: 180px;
+
+  margin-bottom: 25px;
+}
+
+.btn a {
+  font-size: 15px;
+  color: antiquewhite;
+  padding: 9px 25px;
+  background-color: #8491f3;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+.btn a:hover {
+  background-color: #dee2ff;
+  color: black;
+}
+.contact {
+  text-align: center;
+}
+.contact h1 {
+  margin-bottom: 40px;
+}
+.contact p {
+  margin-top: 30px;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #444444;
+  padding: 20px;
+}
+
+.footer a {
+  color: #fff;
+}
